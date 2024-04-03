@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <style>
+    .img{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: -150px;
+    }
+</style>
+</head>
+<body>
+    <Form>
+        <h1><u>Admission Form :-</u></h1>
+        <img class="img" src="download.png" alt="Admission"width="400px"height="400x">
+        <fieldset>
+            <legend><b>Personal Information</b></legend><br>
+            <label for="firstname"><b>First Name:</b></label>
+            <input type="text"id="firstname"required>&nbsp;&nbsp;
+
+            <label for="middlename"><b>Middle Name:</b></label>
+            <input type="text"id="middlename"required>&nbsp;&nbsp;
+             
+            <label for="lastname"><b>Last Name:</b></label>
+            <input type="text"id="lastname"required><br><br><br>
+
+            <label for="mothername"><b>Mother Name:</b></label>
+            <input type="text"id="mothername"required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="fathername"><b>Father's Full Name:</b></label>
+            <input type="text"id="fathername"required><br><br><br>
+            
+            <label for="birthdate"><b>Date Of Birth:</b></label>
+            <input type="date"id="birthdate"required><br><br><br>
+    
+            <label for="name1"><b>Email Id:</b></label>
+            <input type="text"id="email1"required><br><br><br>
+    
+            <label for="phone1"><b>Phone:</b></label>
+            <input type="number"id="phone1"required><br><br><br>
+
+            <label for="address"><b>Address :</b></label><br><br>
+
+            <label for="city">City :</label>
+            <input type="text"id="city">&nbsp;&nbsp;
+
+            <label for="district">District:</label>
+            <input type="text"id="district">&nbsp;&nbsp;
+
+            <label for="state">State:</label>
+            <input type="text"id="state">&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="country1"><b>Country:</b></label>
+            <select name="country" id="country1">
+                <option value="choose">Choose</option>
+                <option value="india">India</option>
+                <option value="us">US</option>
+                <option value="other">Other</option>
+            </select>
+ 
+            <h4>Gender:</h4 > 
+            
+            <label for="radio1">Male :</label>
+            <input type="radio"id="radio1" value="Male" ><br><br>
+    
+            <label for="radio2">Female :</label>
+            <input type="radio"id="radio2"value="Female"><br><br>
+
+            <label for="radio3">Other :</label>
+            <input type="radio"id="radio3"value="Other"><br><br><br>
+    
+            <input type="submit" name="Submit" >
+
+        </fieldset>
+    </Form>
+</body>
+</html>
